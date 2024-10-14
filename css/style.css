@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: dm sans;
+}
+
+.container {
+  padding: 40px 0;
+  margin: auto;
+  width: 70%;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+nav a {
+  line-height: 19.53px;
+  padding-left: 30px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #696871;
+}
+
+.header button {
+  border-radius: 10px;
+  border: none;
+  height: 60px;
+  width: 211px;
+  color: white;
+  background-color: #ff7143;
+}
+
+.grow {
+  display: flex;
+}
+
+.grow-text {
+  gap: 90px;
+  flex-direction: column;
+  display: flex;
+}
+
+.grow h1 {
+  line-height: 77px;
+  font-weight: 700;
+  color: #19191b;
+  font-size: 80px;
+}
+
+.grow p {
+  font-family: mulish;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #696871;
+}
+
+.grow button {
+  line-height: 22.13px;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 10px;
+  border: none;
+  height: 60px;
+  width: 211px;
+  color: white;
+  background-color: #5454d4;
+}
+
+.grow img {
+  padding-left: 150px;
+}
+
+.logoipsum-img {
+  padding-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.subscription h1 {
+  line-height: 57px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #19191b;
+}
+
+.subscription-text {
+  gap: 30px;
+  flex-direction: column;
+  display: flex;
+}
+
+.subscription p {
+  font-family: mulish;
+  line-height: 30px;
+  font-size: 20px;
+  color: #696871;
+}
+
+.subscription a {
+  text-decoration: none;
+  line-height: 22.13px;
+  font-style: 17px;
+  font-weight: 700;
+  color: #5454d4;
+}
+
+.subscription-1 {
+  gap: 200px;
+  align-items: center;
+  display: flex;
+}
+
+.subscription-2 {
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  padding-top: 120px;
+  align-items: center;
+  display: flex;
+}
+
+.box {
+  gap: 15px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.box h1 {
+  line-height: 36px;
+  font-style: 24px;
+  font-weight: 700;
+  color: #19191b;
+}
+
+.box p {
+  font-family: Mulish;
+  font-size: 16px;
+  line-height: 24px;
+  color: #696871;
+}
+
+.boxes {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.header-prm {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.header-prm h1 {
+  line-height: 70px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #19191b;
+}
+
+.header-prm button {
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  height: 55px;
+  width: 160px;
+  background-color: #5454d4;
+}
+
+.starter {
+  padding-top: 60px;
+  gap: 25px;
+  justify-content: baseline;
+  align-items: center;
+  display: flex;
+}
+
+.starter button {
+  line-height: 22.13px;
+  font-size: 17px;
+  font-weight: 700;
+  border: 1px #eae9f2;
+  border-radius: 10px;
+  height: 60px;
+  width: 285px;
+  color: #5454d4;
+}
+
+.starter button:hover {
+  background-color: #ffffff;
+}
+
+.boxprice {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  border-radius: 10px;
+  height: 441px;
+  width: 330px;
+}
+
+.boxprice:hover {
+  background-color: #f8f8f8;
+}
+
+.boxOrange {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  height: 473px;
+  width: 376px;
+  background-color: #ff7143;
+}
+
+.boxOrange h5 {
+  padding-top: 20px;
+  line-height: 28px;
+  font-size: 18px;
+  color: #ffffffb2;
+}
+
+.boxOrange h6 {
+  font-family: Mulish;
+  line-height: 50px;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.boxOrange button {
+  color: #ffffff;
+  line-height: 22.13px;
+  font-size: 17px;
+  font-weight: 700;
+  height: 60px;
+  border-radius: 10px;
+  width: 305px;
+  background-color: #9f3919;
+}
+
+.boxOrange button:hover {
+  background-color: #ff7143;
+}
+
+.boxOrange h1 {
+  line-height: 56px;
+  font-size: 60px;
+  font-weight: 700;
+  padding: 84px 0;
+  color: white;
+}
+
+.boxprice h5 {
+  padding-top: 34px;
+  line-height: 28px;
+  font-size: 18px;
+  color: #696871;
+}
+
+.boxprice h6 {
+  padding-bottom: 15px;
+  font-family: Mulish;
+  line-height: 50px;
+  font-size: 17px;
+  color: #696871;
+}
+
+.boxprice h1 {
+  padding: 20px 0;
+  line-height: 56px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #1d293f;
+}
